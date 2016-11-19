@@ -1,34 +1,238 @@
-@media (min-width: 1200px) {}
 
 
- @media (min-width: 992px) and (max-width: 1199px) {
-	body{
-		background:orange;
+ @media (min-width: 640px) and (max-width: 799px) {
+	 
+	 .body-text {
+		position: absolute;
+		margin-top: 4vw;
 	}
+	.body-text h1 {
+	font-size: 6vw;
+	font-weight: normal;
+	letter-spacing: 0.5vw;
+	color: #fff !important;
+	text-align: center;
+}
+	.body-text h2 {
+		font-size: 3vw;
+		text-transform: uppercase;
+		margin-top: 7px;
+		text-align: center;
+		letter-spacing: 0.5vw;
+	}
+	.body-text h3 {
+		font-size: 3vw;
+		letter-spacing: 4px;
+		margin-top: 1vh;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.sliding-background {
+		height: 63vh;
+		width: 5076px;
+		animation: animatedBackground 60s linear infinite;
+		margin: 11vh 0 0 -3vw;
+	}
+	.footer-text {
+		letter-spacing: 0.5vw !important;
+		font-size: 4vw !important;
+	}
+	.footer-section {
+		padding: 0 1vw;
+	}
+	.footer-text span {
+		font-size: 6vw;
+		font-weight: 700;
+	}
+	.barcode-img-area {
+		width: 30vw;
+		height: 30vw;
+		background-position: center center;
+		top: -32vh;
+		position: relative;
+		animation: breath 4s linear infinite;
+}
+	.barcode-img-area > img {
+		width: 12vw;
+		text-align: center;
+		position: relative;
+		top: 12vh;
+		left: 7vw;
+	}
+	.area {
+		width: 23vw;
+		height: 30vh;
+		margin: 0 auto;
+		border-radius: 0px;
+		position: relative;
+		top: -12vh;
+		left: 32vw;
+	}
+	.mover {
+		width: 21vw;
+		height: 0.2vh;
+		background: rgba(255,0,0,0.8);
+		border-radius: 90%;
+		animation: move 10s infinite ease-in-out;
+		box-shadow: 0px 0px 5px #ff0000;
+	}
+	
+ }
+@media (min-width: 800px) and (min-height: 600px) {
+	 
+	.sliding-background {
+		height: 55vh;
+		margin: -6vh 0 0 -3vw;
+}
+	.area {
+	top: -9vh;
+	left: 35vw;
+}
+.mover {
+	width: 20vw;
+	height: 0.2vh;
+}
+.footer-text span {
+	font-size: 6vw;
+	font-weight: 700;
+}
+.barcode-img-area > img {
+	width: 10vw;
+	top: 11vh;
+	left: 6vw;
+}
+	
+ }
+
+@media (min-width: 1024px) and (min-height: 768px) {
+	 
+	.sliding-background {
+		height: 50vh;
+		margin: 0vh 0 0 -3vw;
+}
+	.area {
+	top: -8vh;
+	left: 35vw;
+	width: 20vw;
+	height: 30vh;
+}
+.barcode-img-area > img {
+	width: 10vw;
+	top: 11vh;
+	left: 6vw;
+}
+.mover {
+	width: 20vw;
+	height: 0.2vh;
+}
+	
  }
  
- @media (min-width: 768px) and (max-width: 991px) {
-	body{
-		background:pink;
-	}
- }
-
- @media (min-width: 600px) and (max-width: 767px) {
-	body{
-		background:skyblue;
-	}
- }
- 
- @media (min-width: 400px) and (max-width: 599px) {
-	body{
-		background:yellow;
-	}
- }
-
-@media (max-width: 400px) {
-	body{
-		background:green
-	}
+ @media (min-width: 1280px) and (min-height: 800px) {
+	 
+	.sliding-background {
+	height: 46vh;
+	margin: 22vh 0 0 -3vw;
+}
+.area {
+	top: -5vh;
+	left: 35vw;
 }
 
+.barcode-img-area > img {
+	top: 10vh;
+	left: 6.5vw;
+}
+.mover {
+		width: 20vw;
+		
+	}
 
+.area {
+	width: 20vw;
+	height: 35vh;
+	margin: 0 auto;
+	border-radius: 0px;
+	position: relative;
+	top: -6vh;
+	left: 35.5vw;
+}
+	
+ }
+ @media (min-width: 1360px) and (min-height: 768px) {
+	 .sliding-background {
+		height: 55vh;
+		margin: 24vh 0 0 -3vw;
+}
+
+.sliding-background {
+	height: 42vh;
+	margin: 25vh 0 0 -3vw;
+}
+.barcode-img-area {
+	width: 20vw;
+	height: 30vh;
+	top: -25vh;
+}
+.barcode-img-area > img {
+	width: 8vw;
+	text-align: center;
+	position: relative;
+	top: 8vh;
+	left: 5vw;
+}
+}
+
+ @media (min-width: 1440px) and (min-height: 900px) {
+	 .sliding-background {
+		height: 46vh;
+		margin: 24vh 0 0 -3vw;
+}
+.barcode-img-area > img {
+	top: 9vh;
+	left: 5vw;
+}
+.area {
+	width: 15vw;
+	height: 30vh;
+	margin: 0 auto;
+	border-radius: 0px;
+	position: relative;
+	top: -5vh;
+	left: 38vw;
+}
+.mover {
+	width: 15vw;
+}
+
+}
+ @media (min-width: 1600px) and (min-height: 1050px){
+	 .sliding-background {
+		margin: 26vh 0 0 -3vw;
+}
+ }
+ 
+ @media (min-width: 1920px) and (min-height: 1080px){
+	 .sliding-background {
+		margin: 30vh 0 0 -3vw;
+		height: 36vh;
+}
+.barcode-img-area {
+	width: 19vw;
+	height: 30vh;
+	top: -25vh;
+}
+.barcode-img-area > img {
+	top: 8vh;
+	left: 5vw;
+}
+.area {
+	width: 14vw;
+	height: 32vh;
+	margin: 0 auto;
+	border-radius: 0px;
+	position: relative;
+	top: 0vh;
+	left: 39vw;
+}
+ }
